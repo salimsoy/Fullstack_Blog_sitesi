@@ -1,0 +1,20 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css");
+.b{
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 50%; /* Yuvarlak buton */
+    padding: 0.75rem;
+    transition: all 0.3s ease;
+  }
+  .b:hover {
+    background-color: #bdbdbd; /* Hover rengi */
+    border-color: #bdbdbd;
+    color: rgb(0, 0, 0); /* İkon rengini beyaz yapar */
+    opacity: 0.5; /* Hafif saydamlık */
+  }
+  .b:active{
+    background-color: #ff5733;
+  color: white;
+   
+  }
